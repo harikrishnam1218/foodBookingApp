@@ -1,0 +1,26 @@
+itemname,itemdesc,cost,vendorId
+EGG DOSA,EGG DOSA,12.00,1
+EGG DOSA,EGG DOSA,13.00,5
+EGG DOSA,EGG DOSA,14.00,6
+ICE Cream ,ICE CREAM,15.00,5
+ICE Cream ,ICE CREAM,12.00,1
+ICE Cream ,ICE CREAM,15.00,6
+punugu,punugu,20.00,1
+sambar,sambar,25.00,1
+vada,vada,28.00,1
+chapathi,chapathi,40.00,1
+parota,parota,50.00,1
+Biscuit,Biscuit,10.00,1
+south Indian Meals,south Indian Meals,58.00,2
+North Indian Meals,North Indian Meals,70.00,2
+FriedRice,FriedRice,100.00,2
+Veg Noodles,Veg Noodles,80.00,2
+Veg Biryani,Veg Biryani,100.00,2
+Chicken Biryani,Chicken Biryani,150.00,2
+Mutton Biryani,Mutton Biryani,200.00,2
+punugu,punugu,20.00,6
+sambar,sambar,25.00,6
+vada,vada,28.00,6
+chapathi,chapathi,40.00,6
+parota,parota,50.00,6
+Biscuit,Biscuit,10.00,6
