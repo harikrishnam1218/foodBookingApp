@@ -11,6 +11,7 @@ import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.practice.exception.CustomerNotFoundException;
 import com.practice.exception.DBException;
@@ -36,6 +37,7 @@ public class BankServiceImpl implements BankService {
 	private TransactionRepository transactionRepo;
 	
 	@Override
+	@Transactional
 	public Long registerCustomer(CustomerData data) throws DBException {
 		Account accountData=null;
 		Customer userData = customerData(data);
@@ -192,6 +194,12 @@ public class BankServiceImpl implements BankService {
 			throw new CustomerNotFoundException("Account not found");
 		}
 		return acc;
+	}
+
+	@Override
+	public List<Transaction> getTransactions() {
+	return	transactionRepo.fetchTransactions();
+		//return null;
 	}
 
 

@@ -59,6 +59,12 @@ public class BankController {
 	//return account;
 	}
 	
+	@GetMapping("/fetchTransaction")
+	public List<Transaction> getTransactions(){
+	  //return bankService.getAccountDetailsByMobile(mobile);
+	return bankService.getTransactions();
+	}
+	
 
 	
 	@GetMapping("/info")

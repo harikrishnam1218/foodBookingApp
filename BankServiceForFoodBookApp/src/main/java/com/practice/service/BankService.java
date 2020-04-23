@@ -26,4 +26,6 @@ public interface BankService {
 	 Account getAccountDetailsByMobile(Long mobile) throws CustomerNotFoundException;
 	 
 	 Account getAccountByNo(Long accountNo) throws  CustomerNotFoundException;
+	 
+	 List<Transaction> getTransactions();
 }
